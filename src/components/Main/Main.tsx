@@ -1,6 +1,6 @@
 import {FC, useState } from "react";
 import "./Main.scss"
-const Mein: FC = () => {
+const Main: FC = () => {
     const [active, setActive] = useState(true)
 
     const changeButton = () => {
@@ -15,4 +15,4 @@ const Mein: FC = () => {
     )
 }
 
-export default Mein;
+export default Main;
