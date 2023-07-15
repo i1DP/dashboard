@@ -1,5 +1,5 @@
 .Mein { 
-    display: flex;
+    display: grid;
     width: 100%;
     justify-content: flex-end;
     align-items: flex-end;
@@ -11,4 +11,9 @@
 
 .disable { 
     color: grey;
+}
+
+.img {
+    width: 500px;
+    height: 500px;
 }

@@ -1,11 +1,11 @@
 import './App.scss'
-import Mein from './components/Mein/Mein'
+import Main from './components/Main/Main'
 
 
 function App() {
   return (
     <div className='App'>
-      <Mein />
+      <Main />
     </div>
   )
 }
