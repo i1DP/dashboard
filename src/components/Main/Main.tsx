@@ -8,7 +8,7 @@ const Mein: FC = () => {
     }
 
     return (
-        <div className="Mein">
+        <div className="Main">
             <img className="img" src="public/img/images.jpg"/>
             <button className={ active ? "active" : "disable"} onClick={changeButton}>Click</button>
         </div>
