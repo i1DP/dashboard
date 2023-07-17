@@ -11,7 +11,7 @@ const Main: FC = () => {
 
     return (
         <div className="Main">
-            <Button className={ active ? "active" : "disable"} label={"Click"} onClick={changeButton}/>
+            <Button className={ active ? "active" : "disable"} label={"Label"} onClick={changeButton}/>
         </div>
     )
 }
