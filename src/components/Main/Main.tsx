@@ -1,16 +1,17 @@
 import {FC, useState } from "react";
-import "./Main.scss"
+import "./main.scss"
+import Button from "../Button/Button";
 const Main: FC = () => {
     const [active, setActive] = useState(true)
 
     const changeButton = () => {
         setActive(!active)
+        console.log(active);
     }
 
     return (
         <div className="Main">
-            <img className="img" src="public/img/images.jpg"/>
-            <button className={ active ? "active" : "disable"} onClick={changeButton}>Click</button>
+            <Button className={ active ? "active" : "disable"} label={"Click"} onClick={changeButton}/>
         </div>
     )
 }
