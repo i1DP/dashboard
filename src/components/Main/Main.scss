@@ -1,11 +1,10 @@
 .Main { 
-    display: grid;
     width: 100%;
-    justify-content: flex-end;
-    align-items: flex-end;
 }
 
-.img {
-    width: 500px;
-    height: 500px;
+.items { 
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px;
 }

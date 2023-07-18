@@ -15,10 +15,11 @@
     justify-content: center;
 }
 
-.active {
-    color:whitesmoke;
+button:hover {
+    background: rgba(62, 126, 255, 0.75)
 }
 
-.disable {
-    background: grey;
+button:disabled {
+    background: #F5F5FA;
+    color: #8083A3;
 }
