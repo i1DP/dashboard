@@ -1,5 +1,5 @@
 import {FC, useState } from "react";
-import Button from "../inputs/Button/Button";
+import Button from "../inputs/buttons/Button/Button";
 import "./main.scss"
 const Main: FC = () => {
     const [disabled, setDisabled] = useState(true)
