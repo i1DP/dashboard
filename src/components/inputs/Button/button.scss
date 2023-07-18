@@ -2,17 +2,16 @@
 
 .button{
     display: flex;
-    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
     width: 98px;
     height: 46px;
-    margin: 1px;
+    border-radius: 10px;
     background: #3E7EFF;
     font-family: 'Public Sans';
     font-size: 12px;
     font-weight: 700;
     line-height: 21px;
-    align-items: center;
-    justify-content: center;
 }
 
 button:hover {
@@ -22,4 +21,5 @@ button:hover {
 button:disabled {
     background: #F5F5FA;
     color: #8083A3;
+    cursor: no-drop;
 }
